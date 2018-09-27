@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="372b565c-7191-49c8-898e-b61f3a535c0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dstestsubmission.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dstestsubmission.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dspages/SearchResultsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/AllUsersRestAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersRestAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/NewUserAddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/PageSwitchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/T2PageSwitchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/deposol/test/dspages/AllUsersPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/deposol/test/dspages/MainPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/deposol/test/dspages/SearchResultsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/deposol/test/dstest/FluentLeniumTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/deposol/test/dstest/PageSwitchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/deposol/test/dstest/allUsersTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/deposol/test/dstest/newUserAddTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/deposol/test/utils/MyProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/allusersscreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/newuseraddtest/allusersscreen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/pageswitchtest/allusersscreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/pageswitchtest/allusersscreen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/pageswitchtest/newuserscreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/pageswitchtest/newuserscreen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.AllUsersRestAPITest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.AllUsersRestAPITest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.NewUserAddTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.NewUserAddTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.PageSwitchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.PageSwitchTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.dstest.AllUsersRestAPITest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/test.dstest.AllUsersRestAPITest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.dstest.NewUserAddTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/test.dstest.NewUserAddTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.dstest.PageSwitchTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/test.dstest.PageSwitchTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7311418114832922115.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dspages/AllUsersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/dspages/AllUsersPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dspages/SearchResultsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dstest/AllUsersRestAPITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dstest/FluentLeniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/dstest/FluentLeniumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dstest/NewUserAddTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dstest/PageSwitchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/utils/MyProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/utils/MyProperties.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,22 +12,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="558175174">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="154">
               <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -80,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersRestAPITest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="-45">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T2PageSwitchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="176">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="528">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
@@ -113,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="330">
               <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
@@ -122,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/utils/MyProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="484">
               <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="308">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1510#1511#0" expanded="true" />
@@ -148,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/dspages/AllUsersPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="638">
               <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -212,9 +161,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1932" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1866" />
+    <option name="y" value="3" />
+    <option name="width" value="1853" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -223,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,26 +197,24 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538036461901" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538037922702" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\nafeez.quraishi.PN-HR-NB17\Documents\microservices\dstestsubmission_one\target\classes" />
-      <recent name="C:\Users\nafeez.quraishi.PN-HR-NB17\Documents\microservices\dstestone\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.deposol.test.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/target/classes" />
       <recent name="C:\Users\nafeez.quraishi.PN-HR-NB17\Documents\microservices\dstestsubmission_t\target\classes" />
+      <recent name="$PROJECT_DIR$/target/classes" />
       <recent name="C:\Users\nafeez.quraishi.PN-HR-NB17\Documents\microservices\dstestsubmission_one\target\classes\com" />
       <recent name="C:\Users\nafeez.quraishi.PN-HR-NB17\Documents\microservices\dstestone\src\main\resources" />
       <recent name="C:\Users\nafeez.quraishi.PN-HR-NB17\Documents\microservices\dstestone\src\main\resources\chromedriver" />
@@ -273,8 +222,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utils" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.deposol.test.utils" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nafeez.quraishi.PN-HR-NB17\Documents\microservices\dstestsubmission_one\target\classes" />
+      <recent name="C:\Users\nafeez.quraishi.PN-HR-NB17\Documents\microservices\dstestone\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -458,6 +408,7 @@
       <workItem from="1537789569801" duration="12148000" />
       <workItem from="1537960083700" duration="14565000" />
       <workItem from="1538030544222" duration="3605000" />
+      <workItem from="1538036841300" duration="662000" />
     </task>
     <servers />
   </component>
@@ -494,12 +445,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128384000" />
+    <option name="totallyTimeSpent" value="129046000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="-1866" y="3" width="1853" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30105147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31846067" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -515,10 +466,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.37297297" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28368017" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.23752712" />
-      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -528,13 +478,11 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7-sources.jar!/org/apache/commons/lang3/SystemUtils.java" />
@@ -571,7 +519,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/test/dspages/SearchResultsPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="154">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -581,7 +529,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T2PageSwitchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="176">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -591,21 +539,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="528">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="330">
           <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/utils/MyProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="484">
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -613,9 +561,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/dspages/AllUsersPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="638">
           <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -626,22 +586,10 @@
     <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/allusersscreen.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1510#1511#0" expanded="true" />
-            <element signature="e#1567#1568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersRestAPITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="-45">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
