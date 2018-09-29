@@ -31,11 +31,7 @@ public class FluentLeniumTest extends FluentTest {
 
                 }
 
-                try{
-                    System.setProperty("webdriver.chrome.driver", fileOne.getAbsolutePath());
-                }catch (NullPointerException e){
-                    throw new RuntimeException(e);
-                }
+                System.setProperty("webdriver.chrome.driver", fileOne.getAbsolutePath());
 
                 break;
 

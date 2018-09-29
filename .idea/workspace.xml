@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="372b565c-7191-49c8-898e-b61f3a535c0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dspages/AllUsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dspages/AllUsersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dspages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/T2PageSwitchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/T2PageSwitchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersRestAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/T3RestAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/allusersscreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/newuseraddtest/allusersscreen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/pageswitchtest/allusersscreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/pageswitchtest/allusersscreen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/pageswitchtest/newuserscreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/pageswitchtest/newuserscreen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.T1NewUserAddTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.T1NewUserAddTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.T2PageSwitchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.T2PageSwitchTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.T3AllUsersRestAPITest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.T3AllUsersRestAPITest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.dstest.T1NewUserAddTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/test.dstest.T1NewUserAddTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.dstest.T2PageSwitchTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/test.dstest.T2PageSwitchTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.dstest.T3AllUsersRestAPITest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/test.dstest.T3AllUsersRestAPITest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dspages/AllUsersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/dspages/AllUsersPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dspages/MainPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dstest/FluentLeniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/dstest/FluentLeniumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dstest/T1NewUserAddTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/dstest/T1NewUserAddTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dstest/T2PageSwitchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/dstest/T2PageSwitchTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dstest/T3AllUsersRestAPITest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,50 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/allusersscreen.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/duplicateUserAdd.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/incompleteNewUserForm.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/invalidEmailAdd.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/multipleUsersAdd.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/successfullyAddUser.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/screenshots/pageswitchtest/allusersscreen.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/screenshots/pageswitchtest/newuserscreen.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T4AllUsersTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="242">
+              <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,9 +26,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/screenshots/alluserstest/allUsersPageOpenTest.png">
-          <provider selected="true" editor-type-id="images" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -144,12 +85,12 @@
         <option value="$PROJECT_DIR$/src/test/java/test/dspages/AllUsersPage.java" />
         <option value="$PROJECT_DIR$/target/classes/user.properties" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T2PageSwitchTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T3RestAPITest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T4AllUsersTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java" />
       </list>
     </option>
   </component>
@@ -245,7 +186,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538249323259" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538252900606" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -458,7 +399,7 @@
       <workItem from="1538036841300" duration="1799000" />
       <workItem from="1538070216428" duration="5911000" />
       <workItem from="1538080618701" duration="14125000" />
-      <workItem from="1538162295595" duration="35585000" />
+      <workItem from="1538162295595" duration="36327000" />
     </task>
     <servers />
   </component>
@@ -495,12 +436,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185804000" />
+    <option name="totallyTimeSpent" value="186546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14232409" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14232409" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -516,7 +458,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2646421" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2646421" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.23752712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -592,18 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1510#1511#0" expanded="true" />
-            <element signature="e#1567#1568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/utils/MyProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -651,16 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T4AllUsersTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -674,29 +594,49 @@
     <entry file="file://$PROJECT_DIR$/target/screenshots/alluserstest/allUsersPageOpenTest.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/allusersscreen.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/duplicateUserAdd.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/incompleteNewUserForm.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/invalidEmailAdd.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/multipleUsersAdd.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/successfullyAddUser.png">
+    <entry file="file://$PROJECT_DIR$/target/screenshots/pageswitchtest/newuserscreen.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/target/screenshots/pageswitchtest/allusersscreen.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshots/pageswitchtest/newuserscreen.png">
+    <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/successfullyAddUser.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/multipleUsersAdd.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/invalidEmailAdd.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/incompleteNewUserForm.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/duplicateUserAdd.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshots/newuseraddtest/allusersscreen.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
