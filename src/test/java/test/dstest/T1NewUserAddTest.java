@@ -32,9 +32,15 @@ public class T1NewUserAddTest extends FluentLeniumTest {
     //this test adds a unique user by generating randomised user details and regenerating and adding again in case of duplicate user error
     public void successfullyAddUser(){
         newUserPage.go();
-        addUser();
+        userCredentialsList = randomUserDataGenerator();
+        newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
+
+        //addUser();
+
         while (newUserPage.userNameErrorPresent() | newUserPage.userEmailErrorPresent()){
-            addUser();
+            //addUser();
+            userCredentialsList = randomUserDataGenerator();
+            newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
         }
         allUsersPage.go();
         boolean userFound = allUsersPage.checkUserCredentialExists(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2));
