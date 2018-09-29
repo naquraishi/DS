@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: test.dstest.T2PageSwitchTest
+Test set: test.dstest.T3RestAPITest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.803 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.286 sec

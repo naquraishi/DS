@@ -1,6 +1,7 @@
 package test.dstest;
 
 import org.apache.commons.exec.OS;
+import org.junit.Before;
 import test.utils.MyProperties;
 import org.fluentlenium.adapter.junit.FluentTest;
 import org.junit.BeforeClass;
@@ -11,7 +12,6 @@ import java.util.Objects;
 public class FluentLeniumTest extends FluentTest {
 
     private static MyProperties myProperties = new MyProperties();
-
 
     @BeforeClass
     public static void setUp() {

@@ -1,39 +1,118 @@
 package test.dstest;
 
+import io.restassured.RestAssured;
+import io.restassured.http.Method;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import org.json.JSONArray;
 import test.dspages.AllUsersPage;
-import test.dspages.MainPage;
+import test.dspages.NewUserPage;
 import com.mifmif.common.regex.Generex;
 import org.fluentlenium.core.annotation.Page;
 import org.junit.Test;
+import test.utils.MyProperties;
 import java.util.ArrayList;
 import java.util.Arrays;
-import static org.assertj.core.api.Assertions.assertThat;
+import java.util.Collections;
+import static org.junit.Assert.*;
+
 
 public class T1NewUserAddTest extends FluentLeniumTest {
+
+    private static MyProperties myProperties = new MyProperties();
+    private ArrayList<String> userCredentialsList;
 
     @Page
     private AllUsersPage allUsersPage;
 
     @Page
-    private MainPage mainPage;
+    private NewUserPage newUserPage;
 
     @Test
-    public void shouldSuccessfullyAddUser() throws InterruptedException {
-
-        allUsersPage.go();
-        ArrayList<String> userCredentialsList = randomUserDataGenerator();
-
-        while (allUsersPage.checkUserCredentialExists(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2))){
-            //this piece of code would be rarely executed, but tested using hardcoded user credential list
-            userCredentialsList.clear();
-            userCredentialsList = randomUserDataGenerator();
+    //this test adds a unique user by generating randomised user details and regenerating and adding again in case of duplicate user error
+    public void successfullyAddUser(){
+        addUser();
+        while (newUserPage.userNameErrorPresent() | newUserPage.userEmailErrorPresent()){
+            addUser();
         }
+        allUsersPage.go();
+        boolean userFound = allUsersPage.checkUserCredentialExists(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2));
+        takeScreenshot("target/screenshots/newuseraddtest/successfullyAddUser.png");
+        assertTrue(userFound);
+    }
 
-        mainPage.go();
-        mainPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
+    @Test
+    public void duplicateUserAdd(){
+        while (!newUserPage.userNameErrorPresent() | !newUserPage.userEmailErrorPresent()){
+            addUserError();
+        }
+        takeScreenshot("target/screenshots/newuseraddtest/duplicateUserAdd.png");
+        assertTrue(newUserPage.userNameErrorPresent() | newUserPage.userEmailErrorPresent());
+    }
+
+
+    @Test
+    public void invalidEmailAdd(){
+        addInvalidEmail();
+        takeScreenshot("target/screenshots/newuseraddtest/invalidEmailAdd.png");
+        assertTrue( newUserPage.userEmailErrorPresent());
+    }
+
+    @Test
+    public void incompleteNewUserForm() {
+        keepARequiredEmpty();
+        takeScreenshot("target/screenshots/newuseraddtest/incompleteNewUserForm.png");
+        assertTrue( newUserPage.userNameErrorPresent() | newUserPage.userEmailErrorPresent() | newUserPage.userPasswordErrorPresent());
+    }
+
+
+    @Test
+    public void multipleUsersAdd(){
+        int usersBefore = getUsersJsonArray();
+        for(int i = 0; i< Integer.parseInt(myProperties.getProperty("users")); i++){
+            ArrayList<String> userCredentialsList = randomUserDataGenerator();
+            newUserPage.go();
+            newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
+        }
+        int usersAfter = getUsersJsonArray();
+        allUsersPage.go();
+        takeScreenshot("target/screenshots/newuseraddtest/multipleUsersAdd.png");
+        assertEquals((usersAfter - usersBefore), Integer.parseInt(myProperties.getProperty("users")));
+    }
+
+    private void addUser(){
+        userCredentialsList = randomUserDataGenerator();
+        newUserPage.go();
+        newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
         takeScreenshot("target/screenshots/newuseraddtest/allusersscreen.png");
-        //assert on All User page display
-        assertThat(window().title()).contains("All User");
+    }
+
+    private void addUserError(){
+        userCredentialsList = randomUserDataGenerator();
+        newUserPage.go();
+        newUserPage.newUserSubmit("adderrortest", "adderrortest@mail.com", userCredentialsList.get(2), userCredentialsList.get(2) );
+    }
+
+    private void addInvalidEmail(){
+        userCredentialsList = randomUserDataGenerator();
+        newUserPage.go();
+        newUserPage.newUserSubmit("testuser", "not_an_email_id", userCredentialsList.get(2), userCredentialsList.get(2) );
+    }
+
+    private void keepARequiredEmpty(){
+        ArrayList<String> userData = new ArrayList<>(Arrays.asList("testuser@mail.com", "test@mail.com", ""));
+        Collections.shuffle(userData);
+        newUserPage.go();
+        newUserPage.newUserSubmit(userData.get(0),userData.get(1), userData.get(2),userData.get(2) );
+    }
+
+    private int getUsersJsonArray(){
+        RequestSpecification httpRequest = RestAssured.given();
+        Response response = httpRequest.request(Method.GET, myProperties.getProperty("all_users_uri_json"));
+        String responseBody = response.getBody().asString();
+        int index  = responseBody.indexOf("[");
+        responseBody = responseBody.substring(index);
+        return new JSONArray(responseBody).length();
     }
 
     private ArrayList<String> randomUserDataGenerator(){

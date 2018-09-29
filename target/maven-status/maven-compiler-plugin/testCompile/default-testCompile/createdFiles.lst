@@ -1,7 +1,6 @@
-test/dstest/FluentLeniumTest.class
-test/dspages/AllUsersPage.class
-test/dstest/T3AllUsersRestAPITest.class
-test/dspages/MainPage.class
-test/dstest/T1NewUserAddTest.class
-test/dstest/T2PageSwitchTest.class
-test/utils/MyProperties.class
+test\dstest\FluentLeniumTest.class
+test\dspages\AllUsersPage.class
+test\utils\MyProperties.class
+test\dspages\NewUserPage.class
+test\dstest\T2PageSwitchTest.class
+test\dstest\T1NewUserAddTest.class
