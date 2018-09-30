@@ -3,5 +3,5 @@ test\dstest\FluentLeniumTest.class
 test\dstest\T3AllUsersTest.class
 test\dspages\AllUsersPage.class
 test\utils\MyProperties.class
-test\dstest\T1UserAddTest.class
 test\dspages\NewUserPage.class
+test\dstest\T1NewUserAddTest.class

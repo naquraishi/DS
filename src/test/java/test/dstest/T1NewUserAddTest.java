@@ -7,7 +7,6 @@ import io.restassured.specification.RequestSpecification;
 import org.json.JSONArray;
 import test.dspages.AllUsersPage;
 import test.dspages.NewUserPage;
-import com.mifmif.common.regex.Generex;
 import org.fluentlenium.core.annotation.Page;
 import org.junit.Test;
 import test.utils.MyProperties;
@@ -17,7 +16,7 @@ import java.util.Collections;
 import static org.junit.Assert.*;
 
 
-public class T1UserAddTest extends FluentLeniumTest {
+public class T1NewUserAddTest extends FluentLeniumTest {
 
     private static MyProperties myProperties = new MyProperties();
     private ArrayList<String> userCredentialsList;
@@ -31,16 +30,9 @@ public class T1UserAddTest extends FluentLeniumTest {
     @Test
     //this test adds a unique user by generating randomised user details and regenerating and adding again in case of duplicate user error
     public void successfullyAddUser(){
-        newUserPage.go();
-        userCredentialsList = randomUserDataGenerator();
-        newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
-
-        //addUser();
-
+        addUser();
         while (newUserPage.userNameErrorPresent() | newUserPage.userEmailErrorPresent()){
-            //addUser();
-            userCredentialsList = randomUserDataGenerator();
-            newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
+            addUser();
         }
         allUsersPage.go();
         boolean userFound = allUsersPage.checkUserCredentialExists(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2));
@@ -77,7 +69,7 @@ public class T1UserAddTest extends FluentLeniumTest {
     public void multipleUsersAdd(){
         int usersBefore = getUsersJsonArray();
         for(int i = 0; i< Integer.parseInt(myProperties.getProperty("users")); i++){
-            ArrayList<String> userCredentialsList = randomUserDataGenerator();
+            userCredentialsList = newUserPage.randomUserDataGenerator();
             newUserPage.go();
             newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
         }
@@ -87,19 +79,20 @@ public class T1UserAddTest extends FluentLeniumTest {
         assertEquals((usersAfter - usersBefore), Integer.parseInt(myProperties.getProperty("users")));
     }
 
-    private void addUser(){
-        userCredentialsList = randomUserDataGenerator();
+    public void addUser(){
+        newUserPage.go();
+        userCredentialsList = newUserPage.randomUserDataGenerator();
         newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
     }
 
     private void addUserError(){
-        userCredentialsList = randomUserDataGenerator();
+        userCredentialsList = newUserPage.randomUserDataGenerator();
         newUserPage.go();
         newUserPage.newUserSubmit("adderrortest", "adderrortest@mail.com", userCredentialsList.get(2), userCredentialsList.get(2) );
     }
 
     private void addInvalidEmail(){
-        userCredentialsList = randomUserDataGenerator();
+        userCredentialsList = newUserPage.randomUserDataGenerator();
         newUserPage.go();
         newUserPage.newUserSubmit("testuser", "not_an_email_id", userCredentialsList.get(2), userCredentialsList.get(2) );
     }
@@ -120,11 +113,11 @@ public class T1UserAddTest extends FluentLeniumTest {
         return new JSONArray(responseBody).length();
     }
 
-    private ArrayList<String> randomUserDataGenerator(){
-        Generex userName = new Generex("[a-z]{3}[0-9]{3}");
-        Generex passWord = new Generex("[a-z]{4}[A-Z]{2,3}[0-9]{2,3}");
-        return new ArrayList<>(Arrays.asList(userName.random(), userName.random() + "@mail.com", passWord.random()));
-    }
+//    private ArrayList<String> randomUserDataGenerator(){
+//        Generex userName = new Generex("[a-z]{3}[0-9]{3}");
+//        Generex passWord = new Generex("[a-z]{4}[A-Z]{2,3}[0-9]{2,3}");
+//        return new ArrayList<>(Arrays.asList(userName.random(), userName.random() + "@mail.com", passWord.random()));
+//    }
 
 }
 

@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="372b565c-7191-49c8-898e-b61f3a535c0c" name="Default Changelist" comment="" />
+    <list default="true" id="372b565c-7191-49c8-898e-b61f3a535c0c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/T1UserAddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/alluserstest/allUsersPageOpenTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/duplicateUserAdd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/incompleteNewUserForm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/invalidEmailAdd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/multipleUsersAdd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/successfullyAddUser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.T1UserAddTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.T2RestAPITest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.T3AllUsersTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.dstest.T1UserAddTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.dstest.T2RestAPITest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.dstest.T3AllUsersTest.txt" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,6 +38,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="572">
@@ -33,8 +61,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/dspages/AllUsersPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="396">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1477#1478#0" expanded="true" />
+                <element signature="e#1514#1515#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="902">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,22 +85,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T4PageSwitchTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-193">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T1UserAddTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2816">
-              <caret line="128" column="1" lean-forward="true" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+            <state relative-caret-position="184">
+              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,10 +171,8 @@
         <option value="$PROJECT_DIR$/src/test/java/test/dspages/AllUsersPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T2PageSwitchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T3RestAPITest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T4AllUsersTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T1PageSwitchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T4PageSwitchTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -153,6 +181,9 @@
         <option value="$PROJECT_DIR$/target/classes/user.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/user.properties" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T1UserAddTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java" />
       </list>
     </option>
   </component>
@@ -259,7 +290,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538289817450" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538291236875" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -296,7 +327,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.T1UserAddTest">
+  <component name="RunManager" selected="JUnit.T1NewUserAddTest">
+    <configuration name="T1NewUserAddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ds-test-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.dstest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.dstest" />
+      <option name="MAIN_CLASS_NAME" value="test.dstest.T1NewUserAddTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="T1NewUserAddTest.multipleUsersAdd" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ds-test-one" />
       <extension name="coverage">
@@ -306,23 +351,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.dstest" />
-      <option name="MAIN_CLASS_NAME" value="test.dstest.T1UserAddTest" />
+      <option name="MAIN_CLASS_NAME" value="test.dstest.T1NewUserAddTest" />
       <option name="METHOD_NAME" value="multipleUsersAdd" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T1UserAddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ds-test-one" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.dstest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.dstest" />
-      <option name="MAIN_CLASS_NAME" value="test.dstest.T1UserAddTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -424,12 +455,12 @@
       <item itemvalue="JUnit.T1NewUserAddTest.multipleUsersAdd" />
       <item itemvalue="JUnit.T2RestAPITest.getAllUsersREST" />
       <item itemvalue="JUnit.T4PageSwitchTest.pageSwitchTest" />
-      <item itemvalue="JUnit.T1UserAddTest" />
+      <item itemvalue="JUnit.T1NewUserAddTest" />
       <item itemvalue="JUnit.T4PageSwitchTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.T1UserAddTest" />
+        <item itemvalue="JUnit.T1NewUserAddTest" />
         <item itemvalue="JUnit.T4PageSwitchTest" />
         <item itemvalue="JUnit.T4PageSwitchTest.pageSwitchTest" />
         <item itemvalue="JUnit.T2RestAPITest.getAllUsersREST" />
@@ -470,7 +501,7 @@
       <workItem from="1538036841300" duration="1799000" />
       <workItem from="1538070216428" duration="5911000" />
       <workItem from="1538080618701" duration="14125000" />
-      <workItem from="1538162295595" duration="46851000" />
+      <workItem from="1538162295595" duration="48870000" />
     </task>
     <servers />
   </component>
@@ -507,13 +538,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197070000" />
+    <option name="totallyTimeSpent" value="199089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14232409" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14232409" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -529,7 +559,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5130152" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.6789588" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.23752712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -576,36 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
-            <element signature="e#1507#1508#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#1656#1657#0" expanded="true" />
-            <element signature="e#1901#1902#0" expanded="true" />
-            <element signature="e#1966#1967#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -671,16 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/dspages/AllUsersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/user.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -692,16 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T1UserAddTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2816">
-          <caret line="128" column="1" lean-forward="true" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,6 +699,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-193">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/dspages/AllUsersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
