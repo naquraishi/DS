@@ -20,6 +20,7 @@ public class FluentLeniumTest extends FluentTest {
 
         switch(driverName){
             case "chrome":
+                //chrome driver ver 2.42 loaded from src->main->resources
                 File fileOne = null;
                 if (OS.isFamilyWindows()){
                     fileOne = new File(Objects.requireNonNull(classLoader.getResource("chromedriver.exe")).getFile());

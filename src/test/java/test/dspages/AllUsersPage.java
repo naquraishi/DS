@@ -20,12 +20,12 @@ public class AllUsersPage extends FluentPage {
     @FindBy(xpath = "//table[@id='users']/tbody/tr")
     private static FluentList<FluentWebElement> usersTable;
 
-    //check if the user details which got added exists
+    //check if the user details which were attempted to add, do exist on AllUsersPage after addition
     public boolean checkUserCredentialExists(String uname, String email, String pwd) {
         for (FluentWebElement eachRow : usersTable) {
             FluentList<FluentWebElement> eachColumn = eachRow.find(By.tagName("td"));
             if(!eachColumn.get(0).text().equals("No Users")){
-                if (uname.equals(eachColumn.get(0).text()) | email.equals(eachColumn.get(1).text()) | pwd.equals(eachColumn.get(2).text())) {
+                if (uname.equals(eachColumn.get(0).text()) && email.equals(eachColumn.get(1).text()) && pwd.equals(eachColumn.get(2).text())) {
                     System.out.println(uname + ": " + eachColumn.get(0).text() + email + " : " +  eachColumn.get(1).text() );
                     return true;
                 }

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: test.dstest.T1NewUserAddTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.324 sec
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.121 sec
