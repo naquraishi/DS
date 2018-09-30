@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="372b565c-7191-49c8-898e-b61f3a535c0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/T1UserAddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/utils/FluentLeniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/T2RestAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/T2RestAPITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/alluserstest/allUsersPageOpenTest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/duplicateUserAdd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/incompleteNewUserForm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/invalidEmailAdd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/multipleUsersAdd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/successfullyAddUser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.T1UserAddTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.T2RestAPITest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dstest.T3AllUsersTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.dstest.T1UserAddTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.dstest.T2RestAPITest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.dstest.T3AllUsersTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/alluserstest/allUsersPageOpenTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/alluserstest/allUsersPageOpenTest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/incompleteNewUserForm.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/newuseraddtest/incompleteNewUserForm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/multipleUsersAdd.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/newuseraddtest/multipleUsersAdd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/newuseraddtest/successfullyAddUser.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/newuseraddtest/successfullyAddUser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dstest/FluentLeniumTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dstest/T1NewUserAddTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/dstest/T1NewUserAddTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dstest/T2RestAPITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/dstest/T2RestAPITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dstest/T3AllUsersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/dstest/T3AllUsersTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="408">
+              <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -41,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="332">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/test/dspages/AllUsersPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1477#1478#0" expanded="true" />
@@ -76,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="902">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+            <state relative-caret-position="414">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,10 +114,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/utils/FluentLeniumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="-54">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T1PageSwitchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T4PageSwitchTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/target/surefire-reports/test.dstest.T2NewUserAddTest.txt" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/target/classes/user.properties" />
@@ -184,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -273,6 +272,15 @@
             <path>
               <item name="DS" type="b2602c69:ProjectViewProjectNode" />
               <item name="DS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -290,7 +298,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538291236875" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538292736333" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -327,12 +335,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.T1NewUserAddTest">
+  <component name="RunManager" selected="JUnit.T3AllUsersTest">
     <configuration name="T1NewUserAddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ds-test-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.dstest.*" />
+          <option name="PATTERN" value="test.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,23 +350,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1NewUserAddTest.multipleUsersAdd" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="ds-test-one" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.dstest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.dstest" />
-      <option name="MAIN_CLASS_NAME" value="test.dstest.T1NewUserAddTest" />
-      <option name="METHOD_NAME" value="multipleUsersAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T2RestAPITest.getAllUsersREST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="T2RestAPITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ds-test-one" />
       <extension name="coverage">
         <pattern>
@@ -368,8 +360,20 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.dstest" />
       <option name="MAIN_CLASS_NAME" value="test.dstest.T2RestAPITest" />
-      <option name="METHOD_NAME" value="getAllUsersREST" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T3AllUsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ds-test-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.dstest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.dstest" />
+      <option name="MAIN_CLASS_NAME" value="test.dstest.T3AllUsersTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -378,7 +382,7 @@
       <module name="ds-test-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.dstest.*" />
+          <option name="PATTERN" value="test.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,7 +396,7 @@
       <module name="ds-test-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.dstest.*" />
+          <option name="PATTERN" value="test.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -452,19 +456,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.T1NewUserAddTest.multipleUsersAdd" />
-      <item itemvalue="JUnit.T2RestAPITest.getAllUsersREST" />
       <item itemvalue="JUnit.T4PageSwitchTest.pageSwitchTest" />
       <item itemvalue="JUnit.T1NewUserAddTest" />
       <item itemvalue="JUnit.T4PageSwitchTest" />
+      <item itemvalue="JUnit.T2RestAPITest" />
+      <item itemvalue="JUnit.T3AllUsersTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.T3AllUsersTest" />
+        <item itemvalue="JUnit.T2RestAPITest" />
         <item itemvalue="JUnit.T1NewUserAddTest" />
         <item itemvalue="JUnit.T4PageSwitchTest" />
         <item itemvalue="JUnit.T4PageSwitchTest.pageSwitchTest" />
-        <item itemvalue="JUnit.T2RestAPITest.getAllUsersREST" />
-        <item itemvalue="JUnit.T1NewUserAddTest.multipleUsersAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -501,20 +505,11 @@
       <workItem from="1538036841300" duration="1799000" />
       <workItem from="1538070216428" duration="5911000" />
       <workItem from="1538080618701" duration="14125000" />
-      <workItem from="1538162295595" duration="48870000" />
+      <workItem from="1538162295595" duration="49185000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="T1NewUserAddTest_multipleUsersAdd - 2018.09.29 at 20h 20m 15s.xml">
-      <configuration name="T1NewUserAddTest.multipleUsersAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="T3RestAPITest_getAllUsersREST - 2018.09.29 at 20h 20m 39s.xml">
-      <configuration name="T3RestAPITest.getAllUsersREST" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="T3RestAPITest_getAllUsersREST - 2018.09.29 at 20h 32m 10s.xml">
-      <configuration name="T3RestAPITest.getAllUsersREST" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="T3RestAPITest_getAllUsersREST - 2018.09.29 at 20h 36m 13s.xml">
       <configuration name="T3RestAPITest.getAllUsersREST" configurationId="JUnit" />
     </history-entry>
@@ -536,12 +531,22 @@
     <history-entry file="T2NewUserAddTest - 2018.09.30 at 07h 32m 39s.xml">
       <configuration name="T2NewUserAddTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="T1NewUserAddTest - 2018.09.30 at 09h 28m 23s.xml">
+      <configuration name="T1NewUserAddTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T2RestAPITest - 2018.09.30 at 09h 28m 49s.xml">
+      <configuration name="T2RestAPITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T3AllUsersTest - 2018.09.30 at 09h 29m 28s.xml">
+      <configuration name="T3AllUsersTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199089000" />
+    <option name="totallyTimeSpent" value="199404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14232409" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -552,14 +557,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917467" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5542299" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.55314535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.6789588" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.72993493" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.23752712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -678,23 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/FluentLeniumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T4PageSwitchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-193">
@@ -708,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/test/dspages/AllUsersPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1477#1478#0" expanded="true" />
@@ -720,7 +708,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T3AllUsersTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -730,7 +718,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/test/dspages/NewUserPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -739,11 +727,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/dstest/T1NewUserAddTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        <state relative-caret-position="414">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/utils/FluentLeniumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
         </state>
       </provider>
     </entry>

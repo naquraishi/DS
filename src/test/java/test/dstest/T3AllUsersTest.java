@@ -4,6 +4,7 @@ import org.fluentlenium.core.annotation.Page;
 import org.junit.Test;
 import test.dspages.AllUsersPage;
 import test.dspages.NewUserPage;
+import test.utils.FluentLeniumTest;
 
 import java.util.ArrayList;
 
@@ -12,7 +13,7 @@ import java.util.ArrayList;
     already covered in other tests.
      */
 
-public class T3AllUsersTest extends FluentLeniumTest{
+public class T3AllUsersTest extends FluentLeniumTest {
 
     private ArrayList<String> userCredentialsList;
 

@@ -1,8 +1,6 @@
-package test.dstest;
+package test.utils;
 
 import org.apache.commons.exec.OS;
-import org.junit.Before;
-import test.utils.MyProperties;
 import org.fluentlenium.adapter.junit.FluentTest;
 import org.junit.BeforeClass;
 import java.io.File;

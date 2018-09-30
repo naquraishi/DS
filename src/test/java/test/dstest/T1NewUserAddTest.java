@@ -9,6 +9,7 @@ import test.dspages.AllUsersPage;
 import test.dspages.NewUserPage;
 import org.fluentlenium.core.annotation.Page;
 import org.junit.Test;
+import test.utils.FluentLeniumTest;
 import test.utils.MyProperties;
 import java.util.ArrayList;
 import java.util.Arrays;
