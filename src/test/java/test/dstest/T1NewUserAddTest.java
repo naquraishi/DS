@@ -80,7 +80,13 @@ public class T1NewUserAddTest extends FluentLeniumTest {
         assertEquals((usersAfter - usersBefore), Integer.parseInt(myProperties.getProperty("users")));
     }
 
-    public void addUser(){
+    @Test
+    public void passwordLessThanSixChar() {
+        addShortPassword();
+        assertTrue(newUserPage.userPasswordErrorPresent());
+    }
+    
+    private void addUser(){
         newUserPage.go();
         userCredentialsList = newUserPage.randomUserDataGenerator();
         newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
@@ -96,6 +102,12 @@ public class T1NewUserAddTest extends FluentLeniumTest {
         userCredentialsList = newUserPage.randomUserDataGenerator();
         newUserPage.go();
         newUserPage.newUserSubmit("testuser", "not_an_email_id", userCredentialsList.get(2), userCredentialsList.get(2) );
+    }
+
+    private void addShortPassword(){
+        userCredentialsList = newUserPage.randomUserDataGenerator();
+        newUserPage.go();
+        newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), "123", "123" );
     }
 
     private void keepARequiredEmpty(){
