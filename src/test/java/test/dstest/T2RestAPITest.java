@@ -18,7 +18,7 @@ public class T2RestAPITest extends FluentLeniumTest {
         RestAssured.baseURI = "http://85.93.17.135:9000";
     }
 
-    //the deleteAllUsersNames is covering both GET And DELETE REST APIs
+    //the deleteAndGetApiTest is covering both GET And DELETE REST APIs
 
     @Test
     public void deleteAndGetApiTest() {
