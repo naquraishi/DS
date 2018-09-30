@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: test.dstest.T1NewUserAddTest
+Test set: test.dstest.T4PageSwitchTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.61 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.934 sec

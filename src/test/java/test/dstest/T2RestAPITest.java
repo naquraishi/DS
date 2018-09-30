@@ -14,7 +14,7 @@ import test.dspages.AllUsersPage;
 import static org.junit.Assert.*;
 
 
-public class T3RestAPITest extends FluentLeniumTest{
+public class T2RestAPITest extends FluentLeniumTest{
 
 
     @BeforeClass

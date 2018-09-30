@@ -1,6 +1,8 @@
+test\dstest\T2RestAPITest.class
 test\dstest\FluentLeniumTest.class
+test\dstest\T3AllUsersTest.class
 test\dspages\AllUsersPage.class
+test\dstest\T4PageSwitchTest.class
 test\utils\MyProperties.class
 test\dspages\NewUserPage.class
-test\dstest\T2PageSwitchTest.class
 test\dstest\T1NewUserAddTest.class

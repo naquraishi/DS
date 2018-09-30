@@ -9,7 +9,7 @@ import test.dspages.AllUsersPage;
     already covered in other tests. So, limited this to just opening of page.
      */
 
-public class T4AllUsersTest extends FluentLeniumTest{
+public class T3AllUsersTest extends FluentLeniumTest{
 
     @Page
     private AllUsersPage allUsersPage;
