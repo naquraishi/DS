@@ -85,7 +85,7 @@ public class T1NewUserAddTest extends FluentLeniumTest {
         addShortPassword();
         assertTrue(newUserPage.userPasswordErrorPresent());
     }
-    
+
     private void addUser(){
         newUserPage.go();
         userCredentialsList = newUserPage.randomUserDataGenerator();
