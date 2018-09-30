@@ -30,12 +30,12 @@
             <artifactId>fluentlenium-junit</artifactId>
             <version>3.7.0</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>org.fluentlenium</groupId>-->
-            <!--<artifactId>fluentlenium-assertj</artifactId>-->
-            <!--<version>3.7.0</version>-->
-            <!--<scope>compile</scope>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.fluentlenium</groupId>
+            <artifactId>fluentlenium-assertj</artifactId>
+            <version>3.7.0</version>
+            <scope>compile</scope>
+        </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>
@@ -59,12 +59,12 @@
             <version>3.1.1</version>
             <scope>test</scope>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>io.rest-assured</groupId>-->
-            <!--<artifactId>rest-assured</artifactId>-->
-            <!--<version>3.1.1</version>-->
-            <!--<scope>compile</scope>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>3.1.1</version>
+            <scope>compile</scope>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.json/json -->
         <dependency>
             <groupId>org.json</groupId>
@@ -88,14 +88,6 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.9</version>
-                <configuration>
-                    <argLine>-Xmx1024M</argLine>
                 </configuration>
             </plugin>
         </plugins>
