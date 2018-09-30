@@ -69,6 +69,7 @@ public class T1NewUserAddTest extends FluentLeniumTest {
     @Test
     public void multipleUsersAdd(){
         int usersBefore = getUsersJsonArray();
+        //Number of users to be tested in the test should be specified in main->resources->user.properties
         for(int i = 0; i< Integer.parseInt(myProperties.getProperty("users")); i++){
             userCredentialsList = newUserPage.randomUserDataGenerator();
             newUserPage.go();
@@ -102,7 +103,7 @@ public class T1NewUserAddTest extends FluentLeniumTest {
     private void addInvalidEmail(){
         userCredentialsList = newUserPage.randomUserDataGenerator();
         newUserPage.go();
-        newUserPage.newUserSubmit("testuser", "not_an_email_id", userCredentialsList.get(2), userCredentialsList.get(2) );
+        newUserPage.newUserSubmit(userCredentialsList.get(0), "not_an_email_id", userCredentialsList.get(2), userCredentialsList.get(2) );
     }
 
     private void addShortPassword(){
@@ -113,6 +114,7 @@ public class T1NewUserAddTest extends FluentLeniumTest {
 
     private void keepARequiredEmpty(){
         ArrayList<String> userData = new ArrayList<>(Arrays.asList("testuser@mail.com", "test@mail.com", ""));
+        //Shuffle so that out of three required input fields, any one of them remains empty.
         Collections.shuffle(userData);
         newUserPage.go();
         newUserPage.newUserSubmit(userData.get(0),userData.get(1), userData.get(2),userData.get(2) );

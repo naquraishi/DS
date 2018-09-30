@@ -14,8 +14,6 @@ import java.util.ArrayList;
 
 public class T3AllUsersTest extends FluentLeniumTest {
 
-    private ArrayList<String> userCredentialsList;
-
     @Page
     private AllUsersPage allUsersPage;
 
@@ -34,10 +32,10 @@ public class T3AllUsersTest extends FluentLeniumTest {
     public void newUserAddFromAllUser(){
         allUsersPage.go();
         allUsersPage.newUserButtonClick();
-        userCredentialsList = newUserPage.randomUserDataGenerator();
+        ArrayList<String> userCredentialsList = newUserPage.randomUserDataGenerator();
         newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
-        //verification of added user details on the alluserspage covered in successfullyAddUser @ T1NewUserAddTest
         takeScreenshot("target/screenshots/alluserstest/newUserAddFromAllUser.png");
+        //verification of added user details on the alluserspage covered in successfullyAddUser @ T1NewUserAddTest
         allUsersPage.isAt();
 }
 

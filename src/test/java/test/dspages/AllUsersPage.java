@@ -26,7 +26,7 @@ public class AllUsersPage extends FluentPage {
             FluentList<FluentWebElement> eachColumn = eachRow.find(By.tagName("td"));
             if(!eachColumn.get(0).text().equals("No Users")){
                 if (uname.equals(eachColumn.get(0).text()) && email.equals(eachColumn.get(1).text()) && pwd.equals(eachColumn.get(2).text())) {
-                    System.out.println(uname + ": " + eachColumn.get(0).text() + email + " : " +  eachColumn.get(1).text() );
+                    //System.out.println(uname + ": " + eachColumn.get(0).text() + email + " : " +  eachColumn.get(1).text() );
                     return true;
                 }
             } else{

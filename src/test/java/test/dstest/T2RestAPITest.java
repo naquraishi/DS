@@ -8,13 +8,10 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import test.utils.FluentLeniumTest;
-
-
 import static org.junit.Assert.*;
 
 
 public class T2RestAPITest extends FluentLeniumTest {
-
 
     @BeforeClass
     public static void baseUriSetup(){
@@ -38,6 +35,5 @@ public class T2RestAPITest extends FluentLeniumTest {
         responseBody = responseBody.substring(index);
         return new JSONArray(responseBody).length();
     }
-
 
 }

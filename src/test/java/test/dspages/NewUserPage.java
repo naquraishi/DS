@@ -5,10 +5,8 @@ import org.fluentlenium.core.FluentPage;
 import org.fluentlenium.core.annotation.PageUrl;
 import org.fluentlenium.core.domain.FluentWebElement;
 import org.openqa.selenium.support.FindBy;
-
 import java.util.ArrayList;
 import java.util.Arrays;
-
 import static org.fluentlenium.assertj.FluentLeniumAssertions.assertThat;
 
 @PageUrl("http://85.93.17.135:9000/user/new")
