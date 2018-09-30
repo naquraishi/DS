@@ -83,6 +83,7 @@ public class T1NewUserAddTest extends FluentLeniumTest {
     @Test
     public void passwordLessThanSixChar() {
         addShortPassword();
+        takeScreenshot("target/screenshots/newuseraddtest/passwordLessThanSixChar.png");
         assertTrue(newUserPage.userPasswordErrorPresent());
     }
 

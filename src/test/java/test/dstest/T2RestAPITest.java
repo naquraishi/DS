@@ -24,7 +24,7 @@ public class T2RestAPITest extends FluentLeniumTest {
     //the deleteAllUsersNames is covering both GET And DELETE REST APIs
 
     @Test
-    public void deleteAllUsersNames() {
+    public void deleteAndGetApiTest() {
         RequestSpecification httpRequest = RestAssured.given();
         httpRequest.request(Method.DELETE, "/user/all");
         assertEquals(getUsersJsonArrayLength(),0);

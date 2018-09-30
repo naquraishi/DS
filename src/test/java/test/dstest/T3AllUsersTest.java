@@ -5,10 +5,8 @@ import org.junit.Test;
 import test.dspages.AllUsersPage;
 import test.dspages.NewUserPage;
 import test.utils.FluentLeniumTest;
-
 import java.util.ArrayList;
 
-import static org.junit.Assert.assertTrue;
 
 /*
     Total users count,traversing through all users DOM already covered in other tests
@@ -39,6 +37,7 @@ public class T3AllUsersTest extends FluentLeniumTest {
         userCredentialsList = newUserPage.randomUserDataGenerator();
         newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
         //verification of added user details on the alluserspage covered in successfullyAddUser @ T1NewUserAddTest
+        takeScreenshot("target/screenshots/alluserstest/newUserAddFromAllUser.png");
         allUsersPage.isAt();
 }
 
@@ -46,6 +45,7 @@ public class T3AllUsersTest extends FluentLeniumTest {
     public void openingAllUsersPageFromNewUserPage(){
         newUserPage.go();
         newUserPage.allUserButtonClick();
+        takeScreenshot("target/screenshots/alluserstest/openingAllUsersPageFromNewUserPage.png");
         //assert for alluserpage open
         allUsersPage.isAt();
     }
