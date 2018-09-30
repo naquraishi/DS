@@ -21,6 +21,5 @@ before_script:
 script:
     - whereis google-chrome-stable
     - sudo chmod +x /home/travis/build/naquraishi/DS/target/classes/chromedriver
-#    - mvn dependency::tree
-    - mvn compile
+    - mvn clean dependency:copy-dependencies package
     - mvn test

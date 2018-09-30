@@ -38,10 +38,9 @@ public class T3AllUsersTest extends FluentLeniumTest {
         allUsersPage.newUserButtonClick();
         userCredentialsList = newUserPage.randomUserDataGenerator();
         newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
-//        boolean userFound = allUsersPage.checkUserCredentialExists(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2));
-//        takeScreenshot("target/screenshots/newuseraddtest/successfullyAddUser.png");
-//        assertTrue(userFound);
-    }
+        //verification of added user details on the alluserspage covered in successfullyAddUser @ T1NewUserAddTest
+        allUsersPage.isAt();
+}
 
     @Test
     public void openingAllUsersPageFromNewUserPage(){
