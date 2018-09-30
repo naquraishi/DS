@@ -17,7 +17,7 @@ import java.util.Collections;
 import static org.junit.Assert.*;
 
 
-public class T1NewUserAddTest extends FluentLeniumTest {
+public class T1UserAddTest extends FluentLeniumTest {
 
     private static MyProperties myProperties = new MyProperties();
     private ArrayList<String> userCredentialsList;
