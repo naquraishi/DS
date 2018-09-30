@@ -8,10 +8,11 @@ import test.utils.FluentLeniumTest;
 
 import java.util.ArrayList;
 
+import static org.junit.Assert.assertTrue;
+
 /*
-    Total users count,traversing through all users DOM, click to new user from All User page are
-    already covered in other tests.
-     */
+    Total users count,traversing through all users DOM already covered in other tests
+*/
 
 public class T3AllUsersTest extends FluentLeniumTest {
 
@@ -37,6 +38,17 @@ public class T3AllUsersTest extends FluentLeniumTest {
         allUsersPage.newUserButtonClick();
         userCredentialsList = newUserPage.randomUserDataGenerator();
         newUserPage.newUserSubmit(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2), userCredentialsList.get(2) );
+//        boolean userFound = allUsersPage.checkUserCredentialExists(userCredentialsList.get(0), userCredentialsList.get(1), userCredentialsList.get(2));
+//        takeScreenshot("target/screenshots/newuseraddtest/successfullyAddUser.png");
+//        assertTrue(userFound);
+    }
+
+    @Test
+    public void openingAllUsersPageFromNewUserPage(){
+        newUserPage.go();
+        newUserPage.allUserButtonClick();
+        //assert for alluserpage open
+        allUsersPage.isAt();
     }
 
 }

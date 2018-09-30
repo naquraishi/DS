@@ -16,11 +16,11 @@ public class AllUsersPage extends FluentPage {
     @FindBy(xpath = "//a[@class='btn btn-default']")
     private FluentWebElement newUserButton;
 
-    //check if the user details which got added exists
 
     @FindBy(xpath = "//table[@id='users']/tbody/tr")
     private static FluentList<FluentWebElement> usersTable;
 
+    //check if the user details which got added exists
     public boolean checkUserCredentialExists(String uname, String email, String pwd) {
         for (FluentWebElement eachRow : usersTable) {
             FluentList<FluentWebElement> eachColumn = eachRow.find(By.tagName("td"));
@@ -40,11 +40,6 @@ public class AllUsersPage extends FluentPage {
     public void newUserButtonClick(){
         newUserButton.click();
     }
-
-    public int getTotalUsers(){
-        return usersTable.size();
-    }
-
 
     @Override
     public void isAt() {

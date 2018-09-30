@@ -114,12 +114,6 @@ public class T1NewUserAddTest extends FluentLeniumTest {
         return new JSONArray(responseBody).length();
     }
 
-//    private ArrayList<String> randomUserDataGenerator(){
-//        Generex userName = new Generex("[a-z]{3}[0-9]{3}");
-//        Generex passWord = new Generex("[a-z]{4}[A-Z]{2,3}[0-9]{2,3}");
-//        return new ArrayList<>(Arrays.asList(userName.random(), userName.random() + "@mail.com", passWord.random()));
-//    }
-
 }
 
 
